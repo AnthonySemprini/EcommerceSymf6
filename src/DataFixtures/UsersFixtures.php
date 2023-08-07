@@ -13,6 +13,7 @@ class UsersFixtures extends Fixture
 {
 
     public function __construct(
+        
         private UserPasswordHasherInterface $passwordEncoder,
         private SluggerInterface $slugger
         ){}
