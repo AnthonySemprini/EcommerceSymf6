@@ -28,14 +28,10 @@
                     <strong>Votre compte n'est pas activé</strong>, renvoyer le lien d'activation
                 </div>
             </div>
-          
-            
-            
-            
-            </body>
-            
-            </html>
-        {% endif %}
+         {% endif %}
+         
+         {% include "_partials/_flash.html.twig" %}
+
         {% block body %}{% endblock %}
         
         {% include "_partials/_footer.html.twig" %}
